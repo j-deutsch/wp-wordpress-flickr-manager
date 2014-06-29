@@ -404,7 +404,7 @@ class FlickrAdmin
 		$tpl_param = array(
 			'[StepText]' => __('Step', 'flickr-manager')
 			,'[AuthText]' => $title
-			,'[AuthURL]' => sprintf("http://flickr.com/services/auth/?%s", http_build_query($params))
+			,'[AuthURL]' => sprintf("https://flickr.com/services/auth/?%s", http_build_query($params))
 			,'[FinishText]' => __('Finish &raquo;', 'flickr-manager')
 			,'[ResetText]' => __('If you have modified your API Key and would like to reset it back to default, please click <a href="#" id="resetapi">here</a>.', 'flickr-manager')
 		);
