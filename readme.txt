@@ -40,3 +40,9 @@ Just click on the Flickr Icon above the edit post TinyMCE editor
 
 1. The upload panel available from within the media button
 2. The added media button
+
+== Updates ==
+
+-- 29/06/2014 --
+-Updated the api calls to use https as specified by Flickr.
+-Still has a bug with the Upload tab using a deprecated function, low priority as I don't use this feature.
